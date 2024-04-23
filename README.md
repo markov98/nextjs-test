@@ -1,2 +1,1 @@
-# nextjs-test
-Next.js Test
+This is a Next.js task I am doing for an internship application.
