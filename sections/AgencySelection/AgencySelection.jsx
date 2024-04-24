@@ -1,5 +1,11 @@
-export const AgencySelection = () => {
+import { StyledContainer, StyledTextContainer, StyledTitle } from "./elements"
+
+export const AgencySelection = ({ title, ...props }) => {
     return (
-        <h1>Hello World!</h1>
+        <StyledContainer {...props}>
+            <StyledTextContainer>
+                <StyledTitle>{title}</StyledTitle>
+            </StyledTextContainer>
+        </StyledContainer>
     )
 }

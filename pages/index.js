@@ -7,6 +7,10 @@ const heroProps = {
   ctaText: "Start",
 };
 
+const props = {
+  title: 'Managed Agency Selection'
+}
+
 export default function Home() {
   return (
     <>
@@ -19,8 +23,7 @@ export default function Home() {
         />
       </head>
       <div>
-        <Hero {...heroProps} />
-        <AgencySelection />
+        <AgencySelection {...props}/>
       </div>
     </>
   );
