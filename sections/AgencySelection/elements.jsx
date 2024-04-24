@@ -18,12 +18,12 @@ export const StyledTitle = styled((props) => <SectionBigHeading {...props} />)`
   color: black;
 `;
 
-export const StyledDescription = styled((props) => <SectionSubheading {...props} />)`
-  margin: 1.563rem 0 0;
+export const StyledSubTitle = styled((props) => <SectionSubheading {...props} />)`
+  color: gray;
 `;
 
 export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
-text-align: center;
+  text-align: center;
   color: black;
   width: 100%;
   margin: auto;
