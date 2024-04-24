@@ -4,6 +4,7 @@ import { Button, SectionContainer, SectionBigHeading, SectionSubheading } from "
 export const StyledContainer = styled(({ height, ...props }) => <SectionContainer {...props} />)`
   background-image: url('../../resources/background.png');
   background-size: cover;
+  margin: 0;
 `;
 
 export const StyledGetStartedBtn = styled((props) => <Button {...props} variant="contained" color="main" />)`
@@ -22,8 +23,9 @@ export const StyledDescription = styled((props) => <SectionSubheading {...props}
 `;
 
 export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
+text-align: center;
   color: black;
-  width: 50%;
+  width: 100%;
   margin: auto;
   font-family: sans-serif;
 `;
