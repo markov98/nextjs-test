@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Button, SectionContainer, SectionBigHeading, SectionSubheading } from "~/components";
 
 export const StyledContainer = styled(({ height, ...props }) => <SectionContainer {...props} />)`
-  background-image: url('../../resources/background.png');
+  background-image: url('/img/background.png');
   background-size: cover;
   margin: 0;
   display:flex;
