@@ -15,10 +15,12 @@ export const StyledGetStartedBtn = styled((props) => <Button {...props} variant=
 
 export const StyledTitle = styled((props) => <SectionBigHeading {...props} />)`
   margin-top: 1em;
+  font-size: 3em;
   color: black;
 `;
 
 export const StyledSubTitle = styled((props) => <SectionSubheading {...props} />)`
+ font-size: 1em;
   color: gray;
 `;
 
