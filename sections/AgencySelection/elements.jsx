@@ -5,6 +5,8 @@ export const StyledContainer = styled(({ height, ...props }) => <SectionContaine
   background-image: url('../../resources/background.png');
   background-size: cover;
   margin: 0;
+  display:flex;
+  flex-direction: column;
 `;
 
 export const StyledGetStartedBtn = styled((props) => <Button {...props} variant="contained" color="main" />)`
@@ -32,14 +34,13 @@ export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
   font-family: sans-serif;
 `;
 
-export const StyledCTAContainer = styled(({ ...props }) => <div {...props} />)`
+export const StyledInnerContainer = styled(({ ...props }) => <div {...props} />)`
   display: flex;
+  with: 100%;
+  height: 100%
 `;
 
 export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)`
-  max-width: 32.03rem;
-  max-height: 65rem;
-  width: 100%;
-  height: 100%;
-  margin-left: auto;
+width: 250px;
+height: 420px;
 `;

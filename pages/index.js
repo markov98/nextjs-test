@@ -9,7 +9,13 @@ const heroProps = {
 
 const agencySelectionProps = {
   title: 'Managed Agency Selection',
-  subtitle: 'Strengthen your onboarding process'
+  subtitle: 'Strengthen your onboarding process',
+  image: {
+    src: '/img/video.png',
+    alt: 'video',
+    width: 1000,
+    height: 1680,
+  }
 }
 
 export default function Home() {
