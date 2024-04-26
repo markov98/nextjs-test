@@ -1,12 +1,5 @@
 import { AgencySelection, Hero } from "../sections";
 
-const heroProps = {
-  image: { src: "/img/heroimg.png", alt: "", width: 1000, height: 1680 },
-  title: "Agency procurement, outsourced.",
-  description: "Start the process here",
-  ctaText: "Start",
-};
-
 const agencySelectionProps = {
   title: 'Managed Agency Selection',
   subtitle: 'Strengthen your onboarding process',
@@ -14,8 +7,13 @@ const agencySelectionProps = {
     src: '/img/video.png',
     alt: 'video',
     width: 1000,
-    height: 1680,
-  }
+    height: 1680
+  },
+  btns: [
+    {width: '15em', title: '', text: ''},
+    {width: '17em', title: '', text: ''},
+    {width: '19em', title: '', text: ''}
+  ]
 }
 
 export default function Home() {

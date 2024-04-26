@@ -8,10 +8,16 @@ export const StyledContainer = styled(({ height, ...props }) => <SectionContaine
   flex-direction: column;
 `;
 
-export const StyledGetStartedBtn = styled((props) => <Button {...props} variant="contained" color="main" />)`
-  margin-top: 4.375rem;
+export const StyledBtn = styled((props) => <Button {...props} variant="contained" color="gray" />)`
+  color: black;
+  margin-block: 2em;
   padding-top: 0;
   padding-bottom: 0;
+  width: ${props => props.width};
+
+  &:hover {
+    border: 2px solid blue;
+  }
 `;
 
 export const StyledTitle = styled((props) => <SectionBigHeading {...props} />)`
@@ -36,10 +42,14 @@ export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
 `;
 
 export const StyledInnerContainer = styled(({ ...props }) => <div {...props} />)`
+margin-top: 3em;
   display: flex;
-  with: 100%;
   height: 100%;
   justify-content: center;
+  gap: 3em;
+`;
+
+export const StyledLeftContainer = styled(({ ...props }) => <div {...props} />)`
 `;
 
 export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)`
