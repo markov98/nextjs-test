@@ -14,9 +14,18 @@ export const StyledBtn = styled((props) => <Button {...props} variant="contained
   padding-top: 0;
   padding-bottom: 0;
   width: ${props => props.width};
-
+  text-align: left;
   &:hover {
     border: 2px solid blue;
+
+    h2 {
+      text-decoration: underline;
+      color: blue;
+    }
+  }
+
+  h2 {
+    font-size: 1.5em;
   }
 `;
 
