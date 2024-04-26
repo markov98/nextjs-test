@@ -10,9 +10,9 @@ const agencySelectionProps = {
     height: 1680
   },
   btns: [
-    {width: '15em', title: 'Brief', text: ''},
-    {width: '17em', title: 'Search', text: ''},
-    {width: '19em', title: 'Pitch', text: ''}
+    { width: '15em', title: 'Brief' },
+    { width: '17em', title: 'Search' },
+    { width: '19em', title: 'Pitch' }
   ]
 }
 
@@ -28,7 +28,7 @@ export default function Home() {
         />
       </head>
       <div>
-        <AgencySelection {...agencySelectionProps}/>
+        <AgencySelection {...agencySelectionProps} />
       </div>
     </>
   );

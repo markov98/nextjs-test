@@ -24,15 +24,15 @@ export const AgencySelection = ({ title, subtitle, image, btns, ...props }) => {
                 <StyledLeftContainer>
                     <StyledBtn width={btns[0].width}>
                         <h2>{btns[0].title}</h2>
-                        <p>{btns[0].text}</p>
+                        <p></p>
                     </StyledBtn>
                     <StyledBtn width={btns[1].width}>
                         <h2>{btns[1].title}</h2>
-                        <p>{btns[1].text}</p>
+                        <p></p>
                     </StyledBtn>
                     <StyledBtn width={btns[2].width}>
                         <h2>{btns[2].title}</h2>
-                        <p>{btns[2].text}</p>
+                        <p></p>
                     </StyledBtn>
                 </StyledLeftContainer>
             </StyledInnerContainer>

@@ -25,7 +25,7 @@ export const StyledBtn = styled((props) => <Button {...props} variant="contained
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 `;
 
