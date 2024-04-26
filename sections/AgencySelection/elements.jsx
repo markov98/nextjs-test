@@ -3,7 +3,6 @@ import { Button, SectionContainer, SectionBigHeading, SectionSubheading } from "
 
 export const StyledContainer = styled(({ height, ...props }) => <SectionContainer {...props} />)`
   background-image: url('/img/background.png');
-  background-size: cover;
   margin: 0;
   display:flex;
   flex-direction: column;
@@ -17,13 +16,15 @@ export const StyledGetStartedBtn = styled((props) => <Button {...props} variant=
 
 export const StyledTitle = styled((props) => <SectionBigHeading {...props} />)`
   margin-top: 1em;
-  font-size: 3em;
+  margin-bottom: 0;
+  font-size: 2em;
   color: black;
 `;
 
 export const StyledSubTitle = styled((props) => <SectionSubheading {...props} />)`
+margin: 0;
  font-size: 1em;
-  color: gray;
+  color: black;
 `;
 
 export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
@@ -37,10 +38,11 @@ export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
 export const StyledInnerContainer = styled(({ ...props }) => <div {...props} />)`
   display: flex;
   with: 100%;
-  height: 100%
+  height: 100%;
+  justify-content: center;
 `;
 
 export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)`
-width: 250px;
-height: 420px;
+width: 300px;
+height: 504px;
 `;
