@@ -6,8 +6,8 @@ const agencySelectionProps = {
   image: {
     src: '/img/video.png',
     alt: 'video',
-    width: 1000,
-    height: 1680
+    width: 300,
+    height: 504
   },
   btns: [
     { width: '25em', title: 'Brief' },
