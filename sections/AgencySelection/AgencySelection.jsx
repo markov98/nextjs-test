@@ -24,15 +24,15 @@ export const AgencySelection = ({ title, subtitle, image, btns, ...props }) => {
                 <StyledLeftContainer>
                     <StyledBtn width={btns[0].width}>
                         <h2>{btns[0].title}</h2>
-                        <p></p>
+                        <p>Complete <strong>brief writing or simple guidance</strong> on what to include, we've got you covered.</p>
                     </StyledBtn>
                     <StyledBtn width={btns[1].width}>
                         <h2>{btns[1].title}</h2>
-                        <p></p>
+                        <p>In-depth agency search covering; <strong>criteria matching</strong>, door knocking and due-dilligence vetting.</p>
                     </StyledBtn>
                     <StyledBtn width={btns[2].width}>
                         <h2>{btns[2].title}</h2>
-                        <p></p>
+                        <p>Comprehensive <strong>pitch management</strong>, including comms, diary management and pitch hosting.</p>
                     </StyledBtn>
                 </StyledLeftContainer>
             </StyledInnerContainer>
