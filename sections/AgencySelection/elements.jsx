@@ -10,9 +10,8 @@ export const StyledContainer = styled(({ height, ...props }) => <SectionContaine
 
 export const StyledBtn = styled((props) => <Button {...props} variant="contained" color="gray" />)`
   color: black;
-  margin-block: 2em;
-  padding-top: 0;
-  padding-bottom: 0;
+  margin-block: 1em;
+  padding: 0.5em;
   width: ${props => props.width};
   text-align: left;
   &:hover {
@@ -26,6 +25,14 @@ export const StyledBtn = styled((props) => <Button {...props} variant="contained
 
   h2 {
     font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+  }
+
+  p {
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
   }
 `;
 
