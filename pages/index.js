@@ -10,9 +10,9 @@ const agencySelectionProps = {
     height: 504
   },
   btns: [
-    { width: '25em', title: 'Brief' },
-    { width: '26.5em', title: 'Search' },
-    { width: '28em', title: 'Pitch' }
+    { width: '20em', title: 'Brief' },
+    { width: '21.5em', title: 'Search' },
+    { width: '23em', title: 'Pitch' }
   ]
 }
 
