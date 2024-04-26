@@ -1,4 +1,4 @@
-import { AgencySelection, Hero } from "../sections";
+import { AgencySelection } from "../sections";
 
 const agencySelectionProps = {
   title: 'Managed Agency Selection',

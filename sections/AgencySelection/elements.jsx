@@ -56,6 +56,12 @@ margin-top: 3em;
   height: 100%;
   justify-content: center;
   gap: 3em;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center
+
+  }
 `;
 
 export const StyledLeftContainer = styled(({ ...props }) => <div {...props} />)`
