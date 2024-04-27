@@ -1,5 +1,6 @@
 import Image from "next/image"
 import {
+    StyledIcon,
     StyledCard,
     StyledCardText,
     StyledCardTitle,
@@ -25,18 +26,21 @@ export const AgencySelection = ({ title, subtitle, image, cards, ...props }) => 
                 </StyledImageContainer>
                 <StyledLeftContainer>
                     <StyledCard width={cards[0].width}>
+                        <StyledIcon>{cards[0].icon}</StyledIcon>
                         <StyledTextContainer>
                             <StyledCardTitle>{cards[0].title}</StyledCardTitle>
                             <StyledCardText>{cards[0].text}</StyledCardText>
                         </StyledTextContainer>
                     </StyledCard>
                     <StyledCard width={cards[1].width}>
+                        <StyledIcon>{cards[1].icon}</StyledIcon>
                         <StyledTextContainer>
                             <StyledCardTitle>{cards[1].title}</StyledCardTitle>
                             <StyledCardText>{cards[1].text}</StyledCardText>
                         </StyledTextContainer>
                     </StyledCard>
                     <StyledCard width={cards[2].width}>
+                        <StyledIcon>{cards[2].icon}</StyledIcon>
                         <StyledTextContainer>
                             <StyledCardTitle>{cards[2].title}</StyledCardTitle>
                             <StyledCardText>{cards[2].text}</StyledCardText>

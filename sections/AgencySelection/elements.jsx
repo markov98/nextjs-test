@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Button, SectionContainer, SectionBigHeading, SectionSubheading } from "~/components";
+import '@fortawesome/fontawesome-free/css/all.css';
 
 export const StyledContainer = styled(({ height, ...props }) => <SectionContainer {...props} />)`
   background-image: url('/img/background.png');
@@ -8,7 +9,10 @@ export const StyledContainer = styled(({ height, ...props }) => <SectionContaine
   flex-direction: column;
 `;
 
-export const StyledCard = styled((props) => <Button {...props} variant="contained" color="gray" />)`
+export const StyledCard = styled((props) => <Button {...props} color="gray" />)`
+display: flex;
+flex-direction: row;
+gap: 0.5em;
   color: black;
   margin-block: 1em;
   padding-inline: 0.5em;
@@ -81,4 +85,8 @@ font-weight: 400;
   font-size: 1em;
   color: black;
   text-align: left;
+`;
+
+export const StyledIcon = styled((props) => <div {...props} />)`
+font-size: 3em;
 `;
