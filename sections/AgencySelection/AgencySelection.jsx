@@ -1,6 +1,6 @@
 import Image from "next/image"
 import {
-    StyledBtn,
+    StyledCard,
     StyledContainer,
     StyledImageContainer,
     StyledInnerContainer,
@@ -10,7 +10,7 @@ import {
     StyledTitle
 } from "./elements"
 
-export const AgencySelection = ({ title, subtitle, image, btns, ...props }) => {
+export const AgencySelection = ({ title, subtitle, image, cards, ...props }) => {
     return (
         <StyledContainer {...props}>
             <StyledTextContainer>
@@ -22,18 +22,18 @@ export const AgencySelection = ({ title, subtitle, image, btns, ...props }) => {
                     <Image layout="responsive" src={image.src} alt={image.alt} width={image.width} height={image.height} />
                 </StyledImageContainer>
                 <StyledLeftContainer>
-                    <StyledBtn width={btns[0].width}>
-                        <h2>{btns[0].title}</h2>
-                        <p>Complete <strong>brief writing or simple guidance</strong> on what to include, we've got you covered.</p>
-                    </StyledBtn>
-                    <StyledBtn width={btns[1].width}>
-                        <h2>{btns[1].title}</h2>
-                        <p>In-depth agency search covering; <strong>criteria matching</strong>, door knocking and due-dilligence vetting.</p>
-                    </StyledBtn>
-                    <StyledBtn width={btns[2].width}>
-                        <h2>{btns[2].title}</h2>
-                        <p>Comprehensive <strong>pitch management</strong>, including comms, diary management and pitch hosting.</p>
-                    </StyledBtn>
+                    <StyledCard width={cards[0].width}>
+                        <h2>{cards[0].title}</h2>
+                        <p>{cards[0].text}</p>
+                    </StyledCard>
+                    <StyledCard width={cards[1].width}>
+                        <h2>{cards[1].title}</h2>
+                        <p>{cards[1].text}</p>
+                    </StyledCard>
+                    <StyledCard width={cards[2].width}>
+                        <h2>{cards[2].title}</h2>
+                        <p>{cards[2].text}</p>
+                    </StyledCard>
                 </StyledLeftContainer>
             </StyledInnerContainer>
         </StyledContainer>

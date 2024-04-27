@@ -8,7 +8,7 @@ export const StyledContainer = styled(({ height, ...props }) => <SectionContaine
   flex-direction: column;
 `;
 
-export const StyledBtn = styled((props) => <Button {...props} variant="contained" color="gray" />)`
+export const StyledCard = styled((props) => <Button {...props} variant="contained" color="gray" />)`
   color: black;
   margin-block: 1em;
   padding: 0.5em;
