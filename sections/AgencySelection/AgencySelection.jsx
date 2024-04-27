@@ -1,6 +1,8 @@
 import Image from "next/image"
 import {
     StyledCard,
+    StyledCardText,
+    StyledCardTitle,
     StyledContainer,
     StyledImageContainer,
     StyledInnerContainer,
@@ -23,16 +25,22 @@ export const AgencySelection = ({ title, subtitle, image, cards, ...props }) => 
                 </StyledImageContainer>
                 <StyledLeftContainer>
                     <StyledCard width={cards[0].width}>
-                        <h2>{cards[0].title}</h2>
-                        <p>{cards[0].text}</p>
+                        <StyledTextContainer>
+                            <StyledCardTitle>{cards[0].title}</StyledCardTitle>
+                            <StyledCardText>{cards[0].text}</StyledCardText>
+                        </StyledTextContainer>
                     </StyledCard>
                     <StyledCard width={cards[1].width}>
-                        <h2>{cards[1].title}</h2>
-                        <p>{cards[1].text}</p>
+                        <StyledTextContainer>
+                            <StyledCardTitle>{cards[1].title}</StyledCardTitle>
+                            <StyledCardText>{cards[1].text}</StyledCardText>
+                        </StyledTextContainer>
                     </StyledCard>
                     <StyledCard width={cards[2].width}>
-                        <h2>{cards[2].title}</h2>
-                        <p>{cards[2].text}</p>
+                        <StyledTextContainer>
+                            <StyledCardTitle>{cards[2].title}</StyledCardTitle>
+                            <StyledCardText>{cards[2].text}</StyledCardText>
+                        </StyledTextContainer>
                     </StyledCard>
                 </StyledLeftContainer>
             </StyledInnerContainer>

@@ -11,28 +11,15 @@ export const StyledContainer = styled(({ height, ...props }) => <SectionContaine
 export const StyledCard = styled((props) => <Button {...props} variant="contained" color="gray" />)`
   color: black;
   margin-block: 1em;
-  padding: 0.5em;
+  padding-inline: 0.5em;
   width: ${props => props.width};
-  text-align: left;
   &:hover {
     border: 2px solid blue;
 
-    h2 {
+   h2 {
       text-decoration: underline;
       color: blue;
     }
-  }
-
-  h2 {
-    font-size: 1.2em;
-    padding: 0;
-    margin: 0;
-  }
-
-  p {
-    font-size: 0.9em;
-    padding: 0;
-    margin: 0;
   }
 `;
 
@@ -52,8 +39,8 @@ margin: 0;
 export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
   text-align: center;
   color: black;
-  width: 100%;
-  margin: auto;
+  margin-inline: auto;
+  padding: 0;
   font-family: sans-serif;
 `;
 
@@ -77,4 +64,21 @@ export const StyledLeftContainer = styled(({ ...props }) => <div {...props} />)`
 export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)`
 width: 300px;
 height: 504px;
+`;
+
+export const StyledCardTitle = styled((props) => <h2 {...props} />)`
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  color: black;
+  text-align: left;
+`;
+
+export const StyledCardText = styled((props) => <p {...props} />)`
+margin: 0;
+padding: 0;
+font-weight: 400;
+  font-size: 1em;
+  color: black;
+  text-align: left;
 `;
