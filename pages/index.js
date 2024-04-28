@@ -12,7 +12,7 @@ const agencySelectionProps = {
   cards: [
     { width: '25em', title: 'Brief', icon: <i class="fa-solid fa-chart-simple"></i>, text: <>Complete <strong>brief writing or simple guidance</strong> on what to include, we've got you covered.</> },
     { width: '26.5em', title: 'Search', icon: <i class="fa-solid fa-magnifying-glass"></i>, text: <>In-depth agency search covering; <strong>criteria matching</strong>, door knocking and due-dilligence vetting.</> },
-    { width: '28em', title: 'Pitch', icon: <i class="fa-regular fa-lightbulb"></i>, text: <>Comprehensive <strong>pitch management</strong>, including comms, diary management and pitch hosting.</> }
+    { width: '28em', title: 'Pitch', icon: <i class="fa-regular fa-lightbulb"></i>, text: <>Comprehensive <strong>pitch management</strong>, including comms, diary management and pitch hosting.</> },
   ]
 }
 
